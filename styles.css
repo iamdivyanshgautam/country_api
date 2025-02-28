@@ -1,0 +1,56 @@
+body
+{
+   line-height: 0.5;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#navbar
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2%;
+    background-color: grey;
+}
+span{
+    margin: 1.5%;
+    padding: 1.5%;
+    box-shadow: 10px  10px  10px grey;
+    background-color: whitesmoke;
+}
+img
+{
+    height: 200px;
+    width: 300px;
+}
+h2{
+    max-width: 300px;
+    line-height: normal;
+}
+#searchCountry
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+#searchbox
+{
+    background-color: rgb(235, 229, 229);
+    width: 14%;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 10px  10px  10px grey;
+    border-style: none;
+
+}
+
+input::placeholder {
+    color: black;  /* Change placeholder text color */
+    opacity: 1; 
+    text-align: center;  /* Ensures visibility in some browsers */
+  }
+  
